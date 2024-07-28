@@ -21,7 +21,11 @@
 .imageLogo {
 	animation: slideDown 1.5s ease-out;
 	text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+<<<<<<< HEAD
 	margin-bottom: 0px;
+=======
+	margin-bottom: 10px;
+>>>>>>> d2cd25b3d2548227dafea4657a749ecbe17f5e7b
 	max-width: 100%;
 	height: auto;
 }
@@ -31,13 +35,18 @@
 	height: 2px;
 	background-color: gold;
 	margin: 0 auto;
+<<<<<<< HEAD
 	margin-top: 70px;
+=======
+	margin-top: 100px;
+>>>>>>> d2cd25b3d2548227dafea4657a749ecbe17f5e7b
 	margin-bottom: 80px;
 }
 
 .textContent {
 	animation: fadeIn 2s ease-in;
 	margin: 20px;
+<<<<<<< HEAD
 	font-weight: 300;
 	font-size: 20px;
 }
@@ -58,6 +67,16 @@
 
 .instaText a {
 	text-decoration: none;
+=======
+}
+
+.headerContent{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+>>>>>>> d2cd25b3d2548227dafea4657a749ecbe17f5e7b
 }
 
 /* Адаптивность */
@@ -67,12 +86,21 @@
 	}
 
 	.divider {
+<<<<<<< HEAD
 		display: none;
 	}
 
 	.textContent {
 		font-size: 1rem;
 		font-weight: 300;
+=======
+		display:none;
+	}
+
+	.textContent {
+		 font-size: 1rem;
+        font-weight: 300;
+>>>>>>> d2cd25b3d2548227dafea4657a749ecbe17f5e7b
 	}
 }
 

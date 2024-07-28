@@ -4,9 +4,13 @@ import style from './styles/Header.module.css'
 export default function Header() {
 	return (
 		<header>
+<<<<<<< HEAD
 			<div
 				className={`items-center text-center flex flex-col  ${style.headerContent}`}
 			>
+=======
+			<div className={`items-center text-center flex flex-col  ${style.headerContent}`}>
+>>>>>>> d2cd25b3d2548227dafea4657a749ecbe17f5e7b
 				<div className='flex justify-center'>
 					<h1 className={style.hiddenHeading}>goldmen</h1>
 					<Image
@@ -19,9 +23,14 @@ export default function Header() {
 				</div>
 				<div className={style.textContent}>
 					<p>
+<<<<<<< HEAD
 						<span className={style.goldmenColor}>golDMen</span> — Ваш гид в мире
 						мужской моды. <br></br>
 						Наш магазин предлагает ассортимент одежды и аксессуаров для мужчин.
+=======
+						golDMen — Ваш гид в мире мужской моды. Наш интернет-магазин
+						предлагает уникальный ассортимент одежды и аксессуаров для мужчин.
+>>>>>>> d2cd25b3d2548227dafea4657a749ecbe17f5e7b
 						<br></br>
 						Каждая вещь в нашем каталоге тщательно отобрана, чтобы обеспечить
 						вам максимальный комфорт и стиль. <br></br> От деловых встреч до

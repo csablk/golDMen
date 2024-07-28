@@ -30,12 +30,20 @@
 }
 
 .section {
+<<<<<<< HEAD
 	box-shadow: 0px 0px 50px black;
 	animation: fadeIn 2s ease-in;
 	background-color: rgb(25, 25, 25);
 	border-top-left-radius: 50px;
 	border-top-right-radius: 50px;
 	color: rgb(255, 255, 255);
+=======
+	animation: fadeIn 2s ease-in;
+	background-color: rgb(37, 37, 37);
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	color: white;
+>>>>>>> d2cd25b3d2548227dafea4657a749ecbe17f5e7b
 	padding: 80px;
 	display: flex;
 	justify-content: center;
@@ -44,10 +52,13 @@
 	text-align: center;
 }
 
+<<<<<<< HEAD
 .section iframe {
 	box-shadow: 0px 0px 10px white;
 }
 
+=======
+>>>>>>> d2cd25b3d2548227dafea4657a749ecbe17f5e7b
 .phoneText {
 	animation: slideInRight 2s ease-in;
 }
@@ -56,6 +67,7 @@
 	animation: slideInLeft 2s ease-in;
 }
 
+<<<<<<< HEAD
 .divider {
 	width: 100px;
 	text-align: center;
@@ -76,12 +88,26 @@
 	text-align: center;
 	align-items: center;
 }
+=======
+.contactsList {
+		display: flex;
+	    list-style-type: none;
+	    gap: 14px;
+	    margin-right: 50px;
+	    margin-top: 50px;
+	    margin-bottom: 50px;
+	    text-align: center;
+	    align-items: center;
+}
+
+>>>>>>> d2cd25b3d2548227dafea4657a749ecbe17f5e7b
 
 .contactsList li {
 	display: flex;
 	align-items: center;
 }
 
+<<<<<<< HEAD
 .contactsList p {
 	display: flex;
 	text-align: center;
@@ -99,6 +125,8 @@
 .instaText {
 }
 
+=======
+>>>>>>> d2cd25b3d2548227dafea4657a749ecbe17f5e7b
 .instaText a {
 	color: #ffffff; /* Adjust color as needed */
 	text-decoration: none;
@@ -107,15 +135,19 @@
 .instaText a:hover {
 	text-decoration: underline;
 }
+<<<<<<< HEAD
 .section h2 {
 	font-size: 30px;
 	font-weight: 500;
 }
+=======
+>>>>>>> d2cd25b3d2548227dafea4657a749ecbe17f5e7b
 
 /* Адаптивность */
 @media (max-width: 768px) {
 	.section {
 		padding: 40px;
+<<<<<<< HEAD
 		background-color: rgb(25, 25, 25);
 		border-radius: 0;
 		color: white;
@@ -133,12 +165,26 @@
 	.phoneText,
 	.addressText {
 		font-size: 2rem;
+=======
+		background-color: rgb(37, 37, 37);
+		border-radius: 0;
+		margin-top: 0px;
+	}
+
+	.phoneText,
+	.addressText {
+		font-size: 0.875rem;
+>>>>>>> d2cd25b3d2548227dafea4657a749ecbe17f5e7b
 	}
 
 	.contactsList {
 		flex-direction: column;
+<<<<<<< HEAD
 		margin-left: 0;
 		margin-right: 20px;
+=======
+		margin-left: 50px;
+>>>>>>> d2cd25b3d2548227dafea4657a749ecbe17f5e7b
 	}
 
 	.section iframe {
