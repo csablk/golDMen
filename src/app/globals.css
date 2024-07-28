@@ -27,10 +27,6 @@ body {
 	background: white;
 	color: black;
 	font-family: 'Roboto', sans-serif;
-<<<<<<< HEAD
-=======
-
->>>>>>> d2cd25b3d2548227dafea4657a749ecbe17f5e7b
 }
 
 @layer utilities {
@@ -41,11 +37,7 @@ body {
 
 .container {
 	margin: 10px auto;
-<<<<<<< HEAD
-	max-width: 1450px;
-=======
 	max-width: 1400px;
->>>>>>> d2cd25b3d2548227dafea4657a749ecbe17f5e7b
 	height: 100vh;
 }
 
@@ -54,7 +46,6 @@ svg {
 }
 
 a {
-<<<<<<< HEAD
 	color: rgb(255, 255, 255);
 	position: relative;
 	text-decoration: none;
@@ -83,13 +74,4 @@ a:hover::after {
 img {
 	padding-bottom: 10px;
 	margin-right: 5px;
-=======
-	color: rgb(255, 243, 178);
-	transition: 1s ease;
-}
-
-a:hover {
-	font-size: 15px;
-	transition: 1s ease;
->>>>>>> d2cd25b3d2548227dafea4657a749ecbe17f5e7b
 }
