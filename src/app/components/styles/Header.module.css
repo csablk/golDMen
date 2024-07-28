@@ -40,6 +40,14 @@
 	margin: 20px;
 }
 
+.headerContent{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
 /* Адаптивность */
 @media (max-width: 768px) {
 	.divider {
@@ -47,16 +55,12 @@
 	}
 
 	.divider {
-		width: 600px;
-		height: 0px;
-		background-color: gold;
-		margin: 0 auto;
-		margin-top: 100px;
-		margin-bottom: 80px;
+		display:none;
 	}
 
 	.textContent {
-		font-size: 0.875rem;
+		 font-size: 1rem;
+        font-weight: 300;
 	}
 }
 

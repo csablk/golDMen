@@ -4,7 +4,7 @@ import style from './styles/Header.module.css'
 export default function Header() {
 	return (
 		<header>
-			<div className='items-center text-center'>
+			<div className={`items-center text-center flex flex-col  ${style.headerContent}`}>
 				<div className='flex justify-center'>
 					<h1 className={style.hiddenHeading}>goldmen</h1>
 					<Image
