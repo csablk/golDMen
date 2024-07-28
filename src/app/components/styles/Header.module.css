@@ -1,0 +1,86 @@
+@keyframes slideDown {
+	from {
+		transform: translateY(-100px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.imageLogo {
+	animation: slideDown 1.5s ease-out;
+	text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+	margin-bottom: 0px;
+	max-width: 100%;
+	height: auto;
+}
+
+.divider {
+	width: 600px;
+	height: 2px;
+	background-color: gold;
+	margin: 0 auto;
+	margin-top: 70px;
+	margin-bottom: 80px;
+}
+
+.textContent {
+	animation: fadeIn 2s ease-in;
+	margin: 20px;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.goldmenColor {
+	color: gold;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.headerContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.instaText a {
+	text-decoration: none;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+	.divider {
+		width: 100%;
+	}
+
+	.divider {
+		display: none;
+	}
+
+	.textContent {
+		font-size: 1rem;
+		font-weight: 300;
+	}
+}
+
+.hiddenHeading {
+	position: absolute;
+	left: -9999px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
