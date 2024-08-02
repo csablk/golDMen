@@ -29,12 +29,10 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-<<<<<<< HEAD
 @layer utilities {
 	.text-balance {
 		text-wrap: balance;
 	}
-=======
 @keyframes underline {
 	0%,
 	100% {
@@ -73,7 +71,6 @@ a.underline::after {
 
 a.underline {
 	color: rgb(255, 255, 255); /* Change text color when animated */
->>>>>>> 8cfd28a (addLinkDynamic)
 }
 
 .container {
@@ -86,7 +83,6 @@ svg {
 	width: 20px;
 }
 
-<<<<<<< HEAD
 a {
 	color: rgb(255, 255, 255);
 	position: relative;
@@ -113,8 +109,7 @@ a:hover::after {
 	background-color: rgb(255, 234, 0);
 }
 
-=======
->>>>>>> 8cfd28a (addLinkDynamic)
+
 img {
 	padding-bottom: 10px;
 	margin-right: 5px;
