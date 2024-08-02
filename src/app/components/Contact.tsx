@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-import style from './styles/Contacts.module.css'
 
-export default function Contact() {
-=======
 'use client'
+
 import { useEffect } from 'react'
 import style from './styles/Contacts.module.css'
 
@@ -19,7 +16,6 @@ export default function Contact() {
 		return () => clearInterval(interval)
 	}, [])
 
->>>>>>> 8cfd28a (addLinkDynamic)
 	return (
 		<section className={style.section}>
 			<div className='text-center'>
