@@ -71,6 +71,10 @@
 	display: flex;
 	list-style-type: none;
 	gap: 15px;
+<<<<<<< HEAD
+=======
+	margin-left: 60px;
+>>>>>>> 8cfd28a (addLinkDynamic)
 	margin-top: 30px;
 	margin-bottom: 50px;
 	text-align: center;
@@ -79,7 +83,10 @@
 
 .contactsList li {
 	display: flex;
+<<<<<<< HEAD
 	margin-left:30px;
+=======
+>>>>>>> 8cfd28a (addLinkDynamic)
 	align-items: center;
 }
 
@@ -136,10 +143,22 @@
 		font-size: 2rem;
 	}
 
+<<<<<<< HEAD
 	.contactsList {
 		flex-direction: column;
 		margin-left: -10px;
 		margin-right: 20px;
+=======
+	.addressText p {
+		fond-size: 3rem;
+	}
+
+	.contactsList {
+		flex-direction: column;
+		margin-left: 20px;
+		margin-right: 20px;
+		gap: 40px;
+>>>>>>> 8cfd28a (addLinkDynamic)
 	}
 
 	.section iframe {

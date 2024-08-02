@@ -29,10 +29,51 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+<<<<<<< HEAD
 @layer utilities {
 	.text-balance {
 		text-wrap: balance;
 	}
+=======
+@keyframes underline {
+	0%,
+	100% {
+		width: 0;
+	}
+	50% {
+		width: 100%;
+	}
+}
+
+a {
+	color: rgba(255, 255, 255, 0.381);
+	position: relative;
+	text-decoration: none;
+	text-transform: none;
+	font-weight: 300;
+	font-size: 18px;
+	padding-bottom: 8px;
+	transition: color 0.7s ease; /* Smooth color transition */
+}
+
+a::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -7px; /* Adjust as needed */
+	height: 1px; /* Adjust as needed */
+	background-color: rgb(255, 251, 0); /* Underline color */
+	width: 0; /* Start with width of 0 */
+	transition: width 0.7s ease; /* Smooth underline transition */
+}
+
+a.underline::after {
+	animation: underline 1s infinite;
+}
+
+a.underline {
+	color: rgb(255, 255, 255); /* Change text color when animated */
+>>>>>>> 8cfd28a (addLinkDynamic)
 }
 
 .container {
@@ -45,6 +86,7 @@ svg {
 	width: 20px;
 }
 
+<<<<<<< HEAD
 a {
 	color: rgb(255, 255, 255);
 	position: relative;
@@ -71,6 +113,8 @@ a:hover::after {
 	background-color: rgb(255, 234, 0);
 }
 
+=======
+>>>>>>> 8cfd28a (addLinkDynamic)
 img {
 	padding-bottom: 10px;
 	margin-right: 5px;

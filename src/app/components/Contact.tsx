@@ -1,6 +1,25 @@
+<<<<<<< HEAD
 import style from './styles/Contacts.module.css'
 
 export default function Contact() {
+=======
+'use client'
+import { useEffect } from 'react'
+import style from './styles/Contacts.module.css'
+
+export default function Contact() {
+	useEffect(() => {
+		const links = document.querySelectorAll('a')
+		const interval = setInterval(() => {
+			links.forEach(link => {
+				link.classList.toggle('underline')
+			})
+		}, 1000)
+
+		return () => clearInterval(interval)
+	}, [])
+
+>>>>>>> 8cfd28a (addLinkDynamic)
 	return (
 		<section className={style.section}>
 			<div className='text-center'>
