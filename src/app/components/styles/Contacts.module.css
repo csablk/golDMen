@@ -80,7 +80,7 @@
 
 .contactsList li {
 	display: flex;
-	margin-left:30px;
+	margin-left: 30px;
 	align-items: center;
 }
 
@@ -142,8 +142,10 @@
 		margin-left: -10px;
 		margin-right: 20px;
 
+	}
+	
 	.addressText p {
-		fond-size: 3rem;
+		font-size: 3rem;
 	}
 
 	.contactsList {

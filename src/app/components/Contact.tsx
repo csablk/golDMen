@@ -1,5 +1,4 @@
-
-'use client'
+"use client";
 
 import { useEffect } from 'react'
 import style from './styles/Contacts.module.css'
